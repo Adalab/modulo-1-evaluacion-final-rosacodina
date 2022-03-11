@@ -3,6 +3,29 @@
   margin: 0;
   padding: 0; }
 
+.header {
+  height: 100vh;
+  border: 5px solid black;
+  background-image: url("./assets/images/header.jpg");
+  background-size: cover; }
+
+.elements {
+  list-style: none;
+  position: fixed;
+  width: auto;
+  display: flex;
+  flex-direction: row; }
+
+.bar {
+  width: 24px;
+  height: 24px;
+  margin: 36px 43px 136px 33px; }
+
+.logo {
+  width: 213px;
+  height: 96px;
+  margin: 0 101px 100px 43px; }
+
 .main__list {
   padding-left: 2rem;
   padding-bottom: 20px; }
