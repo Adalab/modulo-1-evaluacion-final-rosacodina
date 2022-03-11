@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"section-1.css","sourcesContent":[]}
+{"version":3,"sources":["layout/section-1.scss"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,uBAAuB,EAAA;;AAGzB;EACE,uBAAuB,EAAA","file":"section-1.css","sourcesContent":[".title2 {\n  font-size: 24px;\n  border: 5px solid black;\n}\n\n.icon1 {\n  border: 5px solid black;\n}\n"]}

@@ -1,20 +1,33 @@
 .header {
   background-image: url("../images/header.jpg");
+  align-items: center;
   background-size: cover;
+  background-position: center;
   height: auto;
   width: auto;
 }
 
 .head {
   width: 100vw;
+  list-style: none;
   position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .bars {
   display: flex;
   justify-content: flex-start;
   padding-top: 55px;
-  padding-left: 33px∫;
+  width: 24x;
+  height: 24px;
+}
+
+.logo {
+  margin-top: 19px;
+  width: 213px;
+  height: 96px;
 }
 
 .main {
@@ -23,12 +36,13 @@
   flex-direction: column;
 }
 
+/*END OF HEADER MENU AND LOGO*/
+
 .title {
   display: flex;
   justify-content: flex-start;
   padding-top: 215px;
   padding-bottom: 0px;
-
   color: #0c474b;
 }
 
