@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"section-2.css","sourcesContent":[]}
+{"version":3,"sources":["layout/section-2.scss"],"names":[],"mappings":"AAAA;EACE,iDAAiD,EAAA","file":"section-2.css","sourcesContent":[".section-2 {\n  background-color: var(--baackground-color-orange);\n}\n"]}

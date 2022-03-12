@@ -3,8 +3,7 @@
   align-items: center;
   background-size: cover;
   background-position: center;
-  height: auto;
-  width: auto;
+  width: 100vw;
 }
 
 .head {
@@ -43,7 +42,8 @@
   justify-content: flex-start;
   padding-top: 215px;
   padding-bottom: 0px;
-  color: #0c474b;
+  color: var(--green);
+  font-size: 24px;
 }
 
 .button {
@@ -51,4 +51,7 @@
   margin: 24px 119px 64px 119px;
   width: 176px;
   height: 48px;
+  font-size: 16px;
+  color: white;
+  background-color: var(--green);
 }

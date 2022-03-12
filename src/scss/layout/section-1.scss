@@ -1,8 +1,24 @@
+.section-1 {
+  background-color: var(--background-color-light);
+  text-align: var(--text-align-center);
+  color: var(--green);
+  width: 100vw;
+}
 .title2 {
-  font-size: 24px;
-  border: 5px solid black;
+  font-size: var(--font-size-h1-h2);
+  color: var(--green-titles);
+  margin: 41px 47px 18.5px 45px;
 }
 
 .icon1 {
   border: 5px solid black;
+  margin-top: 18.5px;
+}
+
+.title3 {
+  margin-top: 18.5px;
+}
+
+.text1 {
+  margin-top: 12px;
 }
