@@ -1,3 +1,29 @@
 .section-2 {
-  background-color: var(--baackground-color-orange);
+  background-color: var(--background-color-orange);
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.truck {
+  width: 120px;
+  margin: 46px 152px 0px 142px;
+}
+
+.delivery {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: var(--font-size-h1-h2);
+  font-weight: 600;
+}
+
+.delivery-text {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.buy-button {
 }
