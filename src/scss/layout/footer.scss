@@ -1,4 +1,27 @@
 .footer {
   list-style: none;
   background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--green);
+  color: var(--blue);
+  list-style: none;
+  padding-bottom: 56px;
+}
+
+.list {
+  list-style-type: none;
+  color: var(--blue);
+}
+.column {
+  margin: 20px 59px 0px 146px;
+  align-items: center;
+}
+
+.store-title {
+  margin-top: 56px;
+}
+
+.list-title {
+  margin-top: 20px;
 }

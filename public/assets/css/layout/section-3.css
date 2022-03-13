@@ -1,10 +1,37 @@
 .section-3 {
   background-color: var(--background-color-light);
-  width: 414px; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+  width: 100vw; }
+
+.enjoy-title {
+  font-size: var(--font-size-h1-h2);
+  color: var(--green);
+  margin-top: 87px;
+  grid-column-start: 1;
+  margin-right: 27px;
+  margin-left: 27px; }
+
+.products-text {
+  font-size: var(--font-size-text);
+  color: var(--green);
+  grid-column-start: 1;
+  margin: 10px 27px 0px 27px; }
+
+.buy {
+  margin: 25px 116px 92px 122px;
+  font-size: var(--font-size-text);
+  color: white;
+  padding: 12px 24px 12px 24px;
+  background-color: var(--green);
+  border: none;
+  margin-bottom: 10px 116px 92px 122px; }
 
 .bathroom-image {
-  width: 414px;
+  width: 100vw;
   height: 304px;
-  margin: 332px 0 0; }
+  background-position: center; }
 
 /*# sourceMappingURL=section-3.css.map */

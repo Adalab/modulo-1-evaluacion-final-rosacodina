@@ -2,7 +2,8 @@
   background-color: var(--background-color-orange);
   width: auto;
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  width: auto; }
 
 .truck {
   width: 120px;
@@ -20,5 +21,16 @@
   color: white;
   font-size: 14px;
   font-weight: normal; }
+
+.buy-button {
+  margin: 5px 124px 51px 115px;
+  padding: 12px 24px;
+  width: 127px;
+  height: 24px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  font-family: var(--font-size-text);
+  font-size: var(--font-size-text); }
 
 /*# sourceMappingURL=section-2.css.map */
