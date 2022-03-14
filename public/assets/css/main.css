@@ -237,6 +237,10 @@
 .list-title {
   margin-top: 20px; }
 
+.link-footer {
+  color: var(--blue);
+  text-decoration: none; }
+
 .main__list {
   padding-left: 2rem;
   padding-bottom: 20px; }
