@@ -63,25 +63,11 @@
   height: 48px;
   font-size: 16px;
   color: white;
-  background-color: var(--green);
-  -webkit-animation-name: size;
-  animation-name: size; }
+  background-color: var(--green); }
 
-@-webkit-keyframes size {
-  from {
-    opacity: 0;
-    transform: scale(10) rotate(-150deg); }
-  to {
-    opacity: 1;
-    transform: scale(1); } }
-
-@keyframes size {
-  from {
-    opacity: 0;
-    transform: scale(10) rotate(-150deg); }
-  to {
-    opacity: 1;
-    transform: scale(1); } }
+.button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.65s; }
 
 .section-1 {
   background-color: var(--background-color-light);
@@ -89,7 +75,9 @@
   color: var(--green);
   width: 100vw;
   height: 1024px;
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vw; }
 
 .wrapper {
   grid-template-columns: 1fr;
@@ -156,7 +144,7 @@
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  width: auto; }
+  width: 100vw; }
 
 .truck {
   width: 120px;
@@ -208,14 +196,17 @@
   grid-column-start: 1;
   margin: 10px 27px 0px 27px; }
 
-.buy {
+.button {
   margin: 25px 116px 92px 122px;
   font-size: var(--font-size-text);
   color: white;
   padding: 12px 24px 12px 24px;
   background-color: var(--green);
-  border: none;
-  margin-bottom: 10px 116px 92px 122px; }
+  border: none; }
+
+.button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.65s; }
 
 .bathroom-image {
   width: 100vw;

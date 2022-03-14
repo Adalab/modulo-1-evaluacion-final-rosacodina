@@ -4,7 +4,9 @@
   color: var(--green);
   width: 100vw;
   height: 1024px;
-  display: grid; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vw; }
 
 .wrapper {
   grid-template-columns: 1fr;

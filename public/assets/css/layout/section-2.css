@@ -3,7 +3,7 @@
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  width: auto; }
+  width: 100vw; }
 
 .truck {
   width: 120px;
