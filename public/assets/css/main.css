@@ -73,17 +73,18 @@
 
 @media all and (min-width: 900px) {
   .bars {
-    margin: 75px 123.5px 265px 82px; }
+    margin: 75px 123.5px 0px 82px; }
   .logo {
     margin: 39px 334px 0px 123.5px; }
   .main {
     display: flex; }
   .title {
-    margin: 229px 323px 0px 147px;
+    margin: 0px;
     width: 430px;
-    height: 112px; }
+    font-size: 36px; }
   .button {
-    margin: 12px 577px 286px 147px; } }
+    margin: 0px 0px 0px 0px;
+    align-items: flex-start; } }
 
 .section-1 {
   background-color: var(--background-color-light);
@@ -154,6 +155,32 @@
   grid-column-start: 1;
   grid-column-end: 1;
   font-size: 20px; }
+
+@media all and (min-width: 900px) {
+  .title2 {
+    width: 799px; }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px; }
+  .table {
+    width: 90px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 40px 163px 0px 150px; }
+  .bag {
+    width: 90px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 54px 157px 0px 163px; }
+  .guide {
+    width: 90px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin: 56px 160px 0px 157px; }
+  .h3 {
+    width: 208px;
+    margin: 40px; } }
 
 .section-2 {
   background-color: var(--background-color-orange);
@@ -243,23 +270,29 @@
   list-style: none;
   font-family: "Poppins"; }
 
+.column {
+  margin: 20px 59px auto 146px;
+  align-items: center;
+  width: 208px; }
+
+.store-title {
+  margin-top: 56px;
+  margin-bottom: 12px; }
+
+.list-title {
+  margin-top: 0px auto 20px auto; }
+
 .list {
   list-style-type: none;
   color: var(--blue); }
 
-.column {
-  margin: 20px auto auto auto;
-  align-items: center; }
-
-.store-title {
-  margin-top: 56px; }
-
-.list-title {
-  margin-top: 20px; }
-
 .link-footer {
   color: var(--blue);
   text-decoration: none; }
+
+.text {
+  width: 208px;
+  text-align: center; }
 
 .arrow {
   color: var(--blue);

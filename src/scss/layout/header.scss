@@ -65,7 +65,7 @@
 
 @media all and (min-width: 900px) {
   .bars {
-    margin: 75px 123.5px 265px 82px;
+    margin: 75px 123.5px 0px 82px;
   }
 
   .logo {
@@ -77,12 +77,13 @@
   }
 
   .title {
-    margin: 229px 323px 0px 147px;
+    margin: 0px;
     width: 430px;
-    height: 112px;
+    font-size: 36px;
   }
 
   .button {
-    margin: 12px 577px 286px 147px;
+    margin: 0px 0px 0px 0px;
+    align-items: flex-start;
   }
 }

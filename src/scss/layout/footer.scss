@@ -9,26 +9,34 @@
   font-family: "Poppins";
 }
 
-.list {
-  list-style-type: none;
-  color: var(--blue);
-}
 .column {
-  margin: 20px auto auto auto;
+  margin: 20px 59px auto 146px;
   align-items: center;
+  width: 208px;
 }
 
 .store-title {
   margin-top: 56px;
+  margin-bottom: 12px;
 }
 
 .list-title {
-  margin-top: 20px;
+  margin-top: 0px auto 20px auto;
+}
+
+.list {
+  list-style-type: none;
+  color: var(--blue);
 }
 
 .link-footer {
   color: var(--blue);
   text-decoration: none;
+}
+
+.text {
+  width: 208px;
+  text-align: center;
 }
 
 .arrow {
