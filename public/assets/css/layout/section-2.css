@@ -3,14 +3,16 @@
   width: auto;
   display: grid;
   grid-template-columns: 1fr;
-  width: 100vw; }
+  width: 100vw;
+  font-family: "Poppins";
+  padding-bottom: 51px; }
 
 .truck {
   width: 120px;
-  margin: 46px 152px 0px 142px; }
+  margin: 46px auto auto auto; }
 
 .delivery {
-  margin-top: 10px;
+  margin: 10px auto auto auto;
   text-align: center;
   color: white;
   font-size: var(--font-size-h1-h2);
@@ -23,7 +25,7 @@
   font-weight: normal; }
 
 .buy-button {
-  margin: 5px 124px 51px 115px;
+  margin: 5px auto auto auto;
   padding: 12px 24px;
   width: 127px;
   height: 24px;

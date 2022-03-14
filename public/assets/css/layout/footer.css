@@ -6,14 +6,14 @@
   background-color: var(--green);
   color: var(--blue);
   list-style: none;
-  padding-bottom: 56px; }
+  font-family: "Poppins"; }
 
 .list {
   list-style-type: none;
   color: var(--blue); }
 
 .column {
-  margin: 20px 59px 0px 146px;
+  margin: 20px auto auto auto;
   align-items: center; }
 
 .store-title {
@@ -25,5 +25,19 @@
 .link-footer {
   color: var(--blue);
   text-decoration: none; }
+
+.arrow {
+  color: var(--blue);
+  margin: 16px 16px 16px 361px; }
+
+.social-media {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.icons {
+  margin-right: 11px;
+  color: var(--blue); }
 
 /*# sourceMappingURL=footer.css.map */

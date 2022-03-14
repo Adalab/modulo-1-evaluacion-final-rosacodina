@@ -3,7 +3,8 @@
   align-items: center;
   background-size: cover;
   background-position: center;
-  width: 100vw; }
+  width: 100vw;
+  font-family: "Poppins"; }
 
 .head {
   width: 100vw;
@@ -45,10 +46,26 @@
   height: 48px;
   font-size: 16px;
   color: white;
-  background-color: var(--green); }
+  background-color: var(--green);
+  font-family: "Poppins";
+  text-transform: capitalize; }
 
 .button:hover {
   transform: scale(1.2);
   transition-duration: 0.65s; }
+
+@media all and (min-width: 900px) {
+  .bars {
+    margin: 75px 123.5px 265px 82px; }
+  .logo {
+    margin: 39px 334px 0px 123.5px; }
+  .main {
+    display: flex; }
+  .title {
+    margin: 229px 323px 0px 147px;
+    width: 430px;
+    height: 112px; }
+  .button {
+    margin: 12px 577px 286px 147px; } }
 
 /*# sourceMappingURL=header.css.map */

@@ -4,7 +4,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   text-align: center;
-  width: 100vw; }
+  width: 100vw;
+  font-family: "Poppins"; }
 
 .enjoy-title {
   font-size: var(--font-size-h1-h2);
@@ -21,12 +22,13 @@
   margin: 10px 27px 0px 27px; }
 
 .button {
-  margin: 25px 116px 92px 122px;
+  margin: 25px auto 92px auto;
   font-size: var(--font-size-text);
   color: white;
   padding: 12px 24px 12px 24px;
   background-color: var(--green);
-  border: none; }
+  border: none;
+  text-transform: capitalize; }
 
 .button:hover {
   transform: scale(1.2);
