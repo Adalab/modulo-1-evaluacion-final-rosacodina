@@ -1,5 +1,7 @@
 (Creado el martes 15 de marzo, después de la entrega de evaluación)
 
+*Acceder a la web (versión beta) accediendo al enlace http://beta.adalab.es/modulo-1-evaluacion-final-rosacodina/
+
 1- Descripción del proyecto:
     Web de una empresa dedicada a la venta de productos para la organización y decoración del hogar.
 
