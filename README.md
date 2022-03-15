@@ -1,6 +1,9 @@
 (Creado el martes 15 de marzo, después de la entrega de evaluación)
 
-*Acceder a la web (versión beta) accediendo al enlace http://beta.adalab.es/modulo-1-evaluacion-final-rosacodina/
+CÓMO FUNCIONA:
+- Acceder a la web (versión beta) accediendo al enlace http://beta.adalab.es/modulo-1-evaluacion-final-rosacodina/
+- Una vez dentro,situar el ratón sobre cualquier punto de la web y pulsar la tecla CTRL + botón del ratón, de este modo se abrirá un menú desplegable en el cual debemos hacer clic en la pestaá "Inspeccionar/Inspect". 
+- Se abrirán dos menús (uno lateral y otro superior), en el menú superior hay que poner las dimensiones de la versión móvil que son 414 x 896 px. La versión tablet (iPad) tiene unas dimensiones de 900 x 822px. 
 
 1- Descripción del proyecto:
     Web de una empresa dedicada a la venta de productos para la organización y decoración del hogar.
