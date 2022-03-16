@@ -260,6 +260,24 @@
   height: 304px;
   background-position: center; }
 
+@media all and (min-width: 900px) {
+  .section4 {
+    background-color: var(--background-color-orange);
+    width: 100vw; }
+  .special {
+    margin-bottom: 10px;
+    text-align: center; }
+  .paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .text1 {
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .text2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right; } }
+
 .footer {
   list-style: none;
   background-color: var(--green);
