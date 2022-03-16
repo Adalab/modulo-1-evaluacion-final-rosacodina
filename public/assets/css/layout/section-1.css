@@ -2,17 +2,8 @@
   background-color: var(--background-color-light);
   text-align: var(--text-align-center);
   width: 100vw;
-  height: 1024px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vw;
   font-family: "Poppins";
-  padding-bottom: 32px;
   color: #0c474b; }
-
-.wrapper {
-  grid-template-columns: 1fr;
-  grid-template-columns: 100vw; }
 
 .title2 {
   margin: 41px auto auto auto;
@@ -20,6 +11,11 @@
   grid-column-start: 1;
   grid-column-end: 1;
   font-size: 24px; }
+
+.wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 100vw; }
 
 .table {
   margin: 37px auto auto auto;
@@ -35,11 +31,17 @@
   font-size: 20px; }
 
 .text {
-  margin: 12px auto auto auto;
+  margin: 12px auto 18px auto;
   font-size: var(--font-size-);
   width: 208px;
   grid-column-start: 1;
-  grid-column-end: 1; }
+  grid-column-end: 1;
+  margin-bottom: 18px; }
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 100vw; }
 
 .bag {
   margin: 40.5px auto auto auto;
@@ -55,6 +57,14 @@
   grid-column-end: 1;
   font-size: 20px; }
 
+.wrapper3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 100vw; }
+
+body {
+  background-color: var(--background-color-light); }
+
 .guide {
   margin: 40px auto auto auto;
   width: 90px;
@@ -63,7 +73,7 @@
   grid-column-end: 1; }
 
 .title-guide {
-  margin: 37.5px auto auto auto;
+  margin: 37.5px auto 0px auto;
   grid-column-start: 1;
   grid-column-end: 1;
   font-size: 20px; }
