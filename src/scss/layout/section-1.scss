@@ -3,6 +3,12 @@ $fontSizeBig: 24px;
 $fontSizeMedium: 20px;
 $fontSizeSmall: 16px;
 
+body {
+  background-color: var(--background-color-light);
+}
+
+/*MOBILE*/
+
 .section-1 {
   background-color: var(--background-color-light);
   text-align: var(--text-align-center);
@@ -21,7 +27,7 @@ $fontSizeSmall: 16px;
 
 .wrapper1 {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: 100vw;
 }
 
@@ -40,7 +46,7 @@ $fontSizeSmall: 16px;
   font-size: $fontSizeMedium;
 }
 
-.text {
+.text-need {
   margin: 12px auto 18px auto;
   font-size: var(--font-size-);
   width: 208px;
@@ -63,21 +69,19 @@ $fontSizeSmall: 16px;
   grid-column-end: 1;
 }
 
-.title-materias {
-  margin: 42px auto auto auto;
-  width: 291px;
+.text-materias {
+  margin: 12px auto 18px auto;
+  font-size: var(--font-size-);
+  width: 208px;
   grid-column-start: 1;
   grid-column-end: 1;
-  font-size: $fontSizeMedium;
+  margin-bottom: 18px;
 }
 
 .wrapper3 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-columns: 100vw;
-}
-body {
-  background-color: var(--background-color-light);
 }
 
 .guide {
@@ -95,40 +99,123 @@ body {
   font-size: $fontSizeMedium;
 }
 
+.text-guide {
+  margin: 12px auto 18px auto;
+  font-size: var(--font-size-);
+  width: 208px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-bottom: 18px;
+}
+
+/*lorskldfjdklvdfçdj
+dñklfmdklñv
+skldfnvdkl
+sdklñnvdfklñnv
+sdvklndflñkmv
+sdvdfvfd
+vdfvdfv
+dfvdfvfv
+TABLET*/
+
 @media all and (min-width: 900px) {
   .title2 {
     width: 799px;
   }
 
   .wrapper1 {
+    align-items: center;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .table {
-    width: 90px;
+    width: 93px;
+    margin: 40px 0px 0px 150px;
     grid-column-start: 1;
     grid-column-end: 3;
-    margin: 40px 163px 0px 150px;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 
+  .title-need {
+    width: 208px;
+    margin-top: 40px;
+    padding-left: 91px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .text-need {
+    width: 208px;
+    margin-top: 12px;
+    margin-left: 91px;
+    margin-bottom: 114px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  /*TWO*/
   .bag {
     width: 90px;
+    margin: 54px 157px 0px 163px;
     grid-column-start: 2;
     grid-column-end: 3;
-    margin: 54px 157px 0px 163px;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
 
+  .title-materias {
+    width: 208px;
+    margin-top: 53px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .text-materias {
+    width: 208px;
+    margin-top: 41px;
+    margin-bottom: 73px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  /*TRES*/
   .guide {
     width: 90px;
+    margin: 56px 160px 0px 0px;
     grid-column-start: 3;
     grid-column-end: 3;
-    margin: 56px 160px 0px 157px;
+    grid-row-start: 1;
+    grid-template-areas: 3;
   }
 
-  .h3 {
+  .title-guide {
     width: 208px;
-    margin: 40px;
+    margin: 47.5px 101px 0px 0px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .text-guide {
+    width: 208px;
+    margin: 12px 101px 114px 0px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
   }
 }
