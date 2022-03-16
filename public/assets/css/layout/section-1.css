@@ -100,82 +100,63 @@ dfvdfvfv
 TABLET*/
 @media all and (min-width: 900px) {
   .title2 {
-    width: 799px; }
+    width: 799px;
+    margin-bottom: 0px; }
   .wrapper1 {
     align-items: center;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; }
+    grid-template-columns: 1fr 1fr 1fr; }
   .table {
     width: 93px;
-    margin: 40px 0px 0px 150px;
+    margin: 40px 0px auto 50px;
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   .title-need {
     width: 208px;
     margin-top: 40px;
     padding-left: 91px;
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   .text-need {
     width: 208px;
     margin-top: 12px;
     margin-left: 91px;
     margin-bottom: 114px;
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   /*TWO*/
   .bag {
     width: 90px;
-    margin: 54px 157px 0px 163px;
+    margin: 54px auto 42px auto;
     grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   .title-materias {
-    width: 208px;
-    margin-top: 53px;
+    width: 200px;
+    margin: 12px auto 15px auto;
     text-align: center;
     grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   .text-materias {
     width: 208px;
-    margin-top: 41px;
-    margin-bottom: 73px;
+    margin: 0px auto 114px auto;
     grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   /*TRES*/
   .guide {
     width: 90px;
-    margin: 56px 160px 0px 0px;
+    margin: 56px auto 40px 1px;
     grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-template-areas: 3; }
+    grid-column-end: 3; }
   .title-guide {
     width: 208px;
-    margin: 47.5px 101px 0px 0px;
+    margin: 0px auto 0px 1px;
     grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3; }
+    grid-column-end: 3; }
   .text-guide {
     width: 208px;
-    margin: 12px 101px 114px 0px;
+    margin: 12px auto 114px 1px;
     grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3; } }
+    grid-column-end: 3; } }
 
 /*# sourceMappingURL=section-1.css.map */
