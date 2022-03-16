@@ -74,16 +74,20 @@
 
   .main {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
 
   .title {
-    margin: 0px;
     width: 430px;
     font-size: 36px;
+    margin: 364px auto 0px 147px;
+    padding: 0px;
   }
 
   .button {
-    margin: 0px 0px 0px 0px;
+    margin: 12px auto 219px 147px;
     align-items: flex-start;
   }
 }
