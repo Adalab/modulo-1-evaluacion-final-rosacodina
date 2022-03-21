@@ -1,0 +1,60 @@
+.section-3 {
+  background-color: var(--background-color-light);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+  width: 100vw;
+  font-family: "Poppins"; }
+
+.enjoy-title {
+  font-size: var(--font-size-h1-h2);
+  color: var(--green);
+  margin-top: 87px;
+  grid-column-start: 1;
+  margin-right: 27px;
+  margin-left: 27px; }
+
+.products-text {
+  font-size: var(--font-size-text);
+  color: var(--green);
+  grid-column-start: 1;
+  margin: 10px 27px 0px 27px; }
+
+.button {
+  margin: 25px auto 92px auto;
+  font-size: var(--font-size-text);
+  color: white;
+  padding: 12px 24px 12px 24px;
+  background-color: var(--green);
+  border: none;
+  text-transform: capitalize; }
+
+.button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.65s; }
+
+.bathroom-image {
+  width: 100vw;
+  height: 304px;
+  background-position: center; }
+
+@media all and (min-width: 900px) {
+  .section4 {
+    background-color: var(--background-color-orange);
+    width: 100vw; }
+  .special {
+    margin-bottom: 10px;
+    text-align: center; }
+  .paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .text1 {
+    grid-column-start: 1;
+    grid-column-end: 2; }
+  .text2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right; } }
+
+/*# sourceMappingURL=section-3.css.map */
