@@ -1,10 +1,10 @@
 .header {
-  background-image: url("../images/header.jpg");
+  background-image: url('../images/header.jpg');
   align-items: center;
   background-size: cover;
   background-position: center;
   width: 100vw;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .head {
@@ -16,12 +16,33 @@
   justify-content: center;
 }
 
+@keyframes size {
+  from {
+    width: 24px;
+    height: 24px;
+    transform: scale(20);
+  }
+  to {
+    width: 44px;
+    height: 44px;
+    transform: scale(60);
+  }
+}
+
 .bars {
   display: flex;
   justify-content: flex-start;
   margin: 55px 43px 136px 33px;
   width: 24x;
   height: 24px;
+  transition: color;
+  animation-name: size;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+  &:hover {
+    color: green;
+  }
 }
 
 .logo {
@@ -54,7 +75,7 @@
   font-size: 16px;
   color: white;
   background-color: var(--green);
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-transform: capitalize;
 }
 

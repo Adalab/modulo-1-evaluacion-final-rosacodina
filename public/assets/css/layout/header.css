@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
-  font-family: "Poppins"; }
+  font-family: 'Poppins'; }
 
 .head {
   width: 100vw;
@@ -14,12 +14,35 @@
   flex-direction: row;
   justify-content: center; }
 
+@-webkit-keyframes change-size {
+  from {
+    width: 24px;
+    height: 24px;
+    transform: scale(20); }
+  to {
+    width: 44px;
+    height: 44px;
+    transform: scale(60); } }
+
+@keyframes change-size {
+  from {
+    width: 24px;
+    height: 24px;
+    transform: scale(20); }
+  to {
+    width: 44px;
+    height: 44px;
+    transform: scale(60); } }
+
 .bars {
   display: flex;
   justify-content: flex-start;
   margin: 55px 43px 136px 33px;
   width: 24x;
-  height: 24px; }
+  height: 24px;
+  transition: color; }
+  .bars:hover {
+    color: green; }
 
 .logo {
   margin: 19px 101px 100px 0px;
@@ -47,7 +70,7 @@
   font-size: 16px;
   color: white;
   background-color: var(--green);
-  font-family: "Poppins";
+  font-family: 'Poppins';
   text-transform: capitalize; }
 
 .button:hover {
